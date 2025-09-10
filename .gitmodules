@@ -1,3 +1,18 @@
 [submodule "zsh"]
 	path = zsh
 	url = git@github.com:ze-gois/dotenv_zsh
+[submodule "git"]
+	path = git
+	url = git@github.com:ze-gois/dotenv_git
+[submodule "zed"]
+	path = zed
+	url = git@github.com:ze-gois/dotenv_zed
+[submodule "weechat"]
+	path = weechat
+	url = git@github.com:ze-gois/dotenv_weechat
+[submodule "sway"]
+	path = sway
+	url = git@github.com:ze-gois/dotenv_sway
+[submodule "pacman"]
+	path = pacman
+	url = git@github.com:ze-gois/dotenv_pacman
