@@ -1,2 +1,3 @@
 .ssh/
 network/
+setup/environment.sh
