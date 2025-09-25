@@ -16,3 +16,6 @@
 [submodule "pacman"]
 	path = pacman
 	url = git@github.com:ze-gois/dotenv_pacman
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:ze-gois/dotenv_nvim
