@@ -1,4 +1,4 @@
 .ssh/
 network/
-setup/environment.sh
+setup/environment.zsh
 *.log
