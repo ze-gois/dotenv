@@ -1,3 +1,4 @@
 .ssh/
 network/
 setup/environment.sh
+*.log
