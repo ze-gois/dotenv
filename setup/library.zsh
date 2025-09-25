@@ -1,4 +1,14 @@
-#!/usr/bin/env sh
+#!/usr/bin/zsh
+
+origin() {
+    [[ -e "$1" ]] || return 1
+    readlink -f "$1"
+}
+
+current() {
+    local script="${(%):-%x}"       # caminho do script atual
+    origin "$script"
+}
 
 prompt_pass() {
     keyword="$1"
